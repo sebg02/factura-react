@@ -3,7 +3,7 @@ import ProductsInTable from './ProductsInTable.jsx';
 function ProductsTable({ products }) {
     return (
         <>
-            <table>
+            <table className='table' >
                 <thead>
                     <tr>
                         <th>ID producto</th>
